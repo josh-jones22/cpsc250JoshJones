@@ -1,0 +1,10 @@
+key = float(input())
+r = 2 ** (1/12)
+first = key * (r**1)
+second = key * (r**2)
+third = key * (r**3)
+
+print(f'{key:.2f} Hz')
+print(f'{first:.2f} Hz')
+print(f'{second:.2f} Hz')
+print(f'{third:.2f} Hz')
